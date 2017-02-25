@@ -1,0 +1,11 @@
+name: 5050
+version: 1.2
+author: dogboy
+description: flip a coin
+main: com.dogboy.fiftyfifty.main.FiftyFifty
+commands:
+    fifty:
+        description: fifty command
+        permisison: fifty.user.use
+        permission-message: you cannot use this command
+        usage: /<command> <player>
